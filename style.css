@@ -1,0 +1,91 @@
+*{
+    width: 0px;
+    height: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: rgb(155, 184, 155);
+}
+
+.main{
+    width: 98vw;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel{
+    width: 87%; 
+    height: 87%;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.pntop{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(72, 104, 72);
+    padding: 10px 18%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.elem{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    width: 19%;
+    height: 50px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(18, 119, 57);
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 13px;
+    padding: 10px 20px;
+}
+
+.pbtm{
+    width: 100%;
+    height: 89%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.pbtm h1{
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.bubble{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(72, 104, 72);
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    cursor: pointer;
+}
